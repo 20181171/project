@@ -1,0 +1,71 @@
+.main-1 {
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 20vh;
+}
+
+.main-1 h2 {
+  margin: 7vh 0 2vh 0;
+  font-size: 2.5vw;
+}
+
+.main-1 .recommend-furniture {
+  width: 70%;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-1 .recommend-furniture .recommend-items {
+  width: 100%;
+}
+
+.main-1 .recommend-furniture .recommend-items .recommend-item {
+  display: inline-block;
+  margin: 20px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.main-1 .recommend-furniture .recommend-items .recommend-item img {
+  border-radius: 3%;
+  border: #ccc 1px solid;
+  width: 100%;
+}
+
+.main-1 .current-ranking {
+  width: 30%;
+  margin-left: 5vw;
+}
+
+.main-1 .current-ranking .ranking-items .ranking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 1vw 0;
+  cursor: pointer;
+}
+
+.main-1 .current-ranking .ranking-items .ranking-item .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-1 .current-ranking .ranking-items .ranking-item .text-box .number {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 0.4em;
+}
+
+.main-1 .current-ranking .ranking-items .ranking-item .text-box .text {
+  font-size: 20px;
+}
+
+.main-1 .current-ranking .ranking-items .ranking-item img {
+  width: 12vh;
+  height: 5vw;
+  border-radius: 3%;
+}

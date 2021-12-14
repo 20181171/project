@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>친테리어-스토어</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="global-nav">
+        <div class="global-nav-links">
+          <a href="index.html" class="global-nav-item">Home</a>
+          <a href="best.html" class="global-nav-item">Best</a>
+          <a href="store.html" class="global-nav-item">Stores</a>
+          <a href="about.html" class="global-nav-item">About</a>
+        </div>
+      </nav>
+      <nav class="local-nav">
+        <div class="local-nav-links">
+          <a href="index.html" class="product-name">Chinterior</a>
+          <div>
+            여기에 이번달 기부할 총 금액 현황(DB연동 후 할 예정, 회원가입,
+            로그인 포함)
+          </div>
+          <a href="#">회원가입</a>
+          <a href="#">로그인</a>
+          <a href="index.html">메인페이지</a>
+        </div>
+      </nav>
+      <section class="slider">
+        <div class="progress-bar">
+          <div class="progress-bar-fill"></div>
+        </div>
+        <div class="progress-bar-btn">
+          <div class="left"><</div>
+          <div class="right">></div>
+        </div>
+        <ul class="slides">
+          <li class="slide a">
+            <div class="slide-back"></div>
+            <img src="image/blackFriday.jpg" alt="세일상품" />
+            <p class="message">친테리어 스토어<br />블프 세일 상품</p>
+            <div class="slide-front"></div>
+          </li>
+          <li class="slide b">
+            <div class="slide-back"></div>
+            <img src="image/table.jpg" alt="신규상품" />
+            <p class="message">친테리어<br />신규 입점 상품</p>
+            <div class="slide-front"></div>
+          </li>
+          <li class="slide c">
+            <div class="slide-back"></div>
+            <img src="image/winter.jpg" alt="겨울상품" />
+            <p class="message">갑자기 추워진 날씨,<br />대비해볼까?</p>
+            <div class="slide-front"></div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="product">
+        <ul class="product-menu-items">
+          <li class="product-menu-item all click">
+            <img src="image/all.png" alt="전체" />
+            <p class="text">전체</p>
+          </li>
+          <li class="product-menu-item bed">
+            <img src="image/bed.png" alt="침대" />
+            <p class="text">침대</p>
+          </li>
+          <li class="product-menu-item sofa">
+            <img src="image/seater-sofa.png" alt="소파" />
+            <p class="text">소파</p>
+          </li>
+          <li class="product-menu-item table">
+            <img src="image/table.png" alt="테이블" />
+            <p class="text">테이블</p>
+          </li>
+          <li class="product-menu-item chair">
+            <img src="image/chair.png" alt="의자" />
+            <p class="text">의자</p>
+          </li>
+        </ul>
+        <div class="product-items">
+          <div class="product-items-title">
+            <p>전체</p>
+          </div>
+          <div class="product-items-furniture"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>부산광역시 부산진구 엄광로 176 동의대학교, 4팀</div>
+        <br />
+        <div>팀장: 서예린 팀원: 김하늘, 이우석, 추세현</div>
+      </footer>
+    </div>
+    <script src="js/scrollFix.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/productClick.js"></script>
+  </body>
+</html>
